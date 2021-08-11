@@ -95,7 +95,10 @@ input::placeholder{
   height: 645px;
   background: #e0e0e0;
   position: sticky;
-  margin-top: -16px;
+  margin-top: -13px;
+  border-radius: 5px;
+  margin-left: 1px;
+  
 }
 .all-icon-sidebar{
   margin: 15px;
