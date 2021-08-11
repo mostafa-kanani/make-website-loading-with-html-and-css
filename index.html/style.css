@@ -64,7 +64,7 @@ h1{
   outline: none;
   border-radius: 30px;
   border:none; 
-  width: 230px;
+  width: 250px;
   height: 30px;
   text-align: left;
   appearance: none;
@@ -85,7 +85,7 @@ input::placeholder{
 }
 .profile{
   float: right;
-  margin-right: -280px;
+  margin-right: -300px;
   margin-top: 8px;
   color: #fff;
 }
