@@ -66,12 +66,15 @@ h1{
   border:none; 
   width: 250px;
   height: 30px;
-  text-align: left;
+  text-align: center;
   appearance: none;
   margin-right: 50px;
 }
 input::placeholder{
   padding: 28px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 500;
 }
 .fa-search:hover{
   color: crimson;
@@ -264,3 +267,6 @@ section{
   cursor: pointer;
   font-family: sans-serif;
 }
+/*sidebar-right*/
+
+
