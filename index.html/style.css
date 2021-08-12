@@ -91,8 +91,8 @@ input::placeholder{
 }
 /*navbar*/
 .sidebar{
-  width: 250px;
-  height: 645px;
+  width: 300px;
+  height: 690px;
   background: #e0e0e0;
   position: sticky;
   margin-top: -13px;
@@ -141,7 +141,7 @@ h4{
   margin: 10px;
 }
 img{
-  margin: 2px;
+  margin: 5px;
   object-fit: cover; 
   margin-left: 10px;
   cursor: pointer;
@@ -153,4 +153,114 @@ aside{
   color: #555;
   font-family: sans-serif;
 }
-/*sidebar-left*/
+/*sidebar*/
+.sidebar-right{
+  width: 270px;
+  height: 700px;
+  background: #e0e0e0;
+  float: right;
+  margin-top: -680px;
+  border-radius: 5px;
+  margin-right: 10px;
+  appearance: none;
+}
+.title-right{
+  margin: 10px;
+  color: #555;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  display: flex;
+}
+.title-right-2{
+  float: right;
+  margin-top: -29px;
+  color: cornflowerblue;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.bg-color,.bg-color-2{
+  width: 55px;
+  height: 60px;
+  background:cornflowerblue;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #555;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #f6f6f6;
+}
+.text-sidebar-right{
+  display: grid;
+  margin: 20px;
+  color: #555;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+  align-items: center;
+  margin-top: -130px;
+}
+.text-2-sidebar-right{
+  display: grid;
+  margin: 20px;
+  color: #555;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.fa-map-marker-alt{
+  margin-right: 115px; 
+}
+.location-or-place{
+  text-align: center;
+  margin-top: -90px;
+  margin-right: 10px;
+  color: #555;
+  font-size: 15px;
+}
+.location-2{
+  text-align: center;
+  margin-top: 38px;
+  color: #555;
+  font-size: 15px;
+}
+.advertisment{
+  color: #555;
+  font-weight: 600;
+  margin-top: 45px;
+  margin-left: 13px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+.picture-advertisment{
+  object-fit: cover;
+}
+img{
+  border-radius: 20px;
+}
+h3{
+  margin: 14px;
+  color: #555;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+section{
+  float: right;
+  margin: 10px;
+  color: cornflowerblue;
+  font-size: 12px;
+  margin-top: -30px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-family: sans-serif;
+}
