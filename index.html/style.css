@@ -406,5 +406,11 @@ span{
   cursor: pointer;
   font-size: 25px;
 }
-
+.card-1{
+    width: 400px;
+    height: 335px;
+    background: ;
+    margin-left: 50px;
+    margin-top: 130px;
+}
 
