@@ -1,21 +1,21 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+body {
   margin: 0;
   padding: 0;
   background: #f6f6f6;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
-.container{
+.container {
   width: 100%;
   height: 50px;
-  background:cornflowerblue;
+  background: cornflowerblue;
   box-shadow: 3px 3px 10px #555;
 }
 
-.icon-for-navbar{
+.icon-for-navbar {
   color: #fff;
   float: left;
   margin: 10px;
@@ -24,86 +24,84 @@ body{
   margin-top: 7px;
   cursor: pointer;
 }
-.fa-bell{
+.fa-bell {
   margin: 10px;
   cursor: pointer;
 }
-.fa-envelope{
+.fa-envelope {
   margin: 10px;
   cursor: pointer;
 }
-.fa-user{
+.fa-user {
   margin: 10px;
   cursor: pointer;
 }
-.fa-bell:nth-child(2):hover{
+.fa-bell:nth-child(2):hover {
   color: crimson;
   transition: all 0.4s ease;
 }
-.fa-envelope:nth-child(4):hover{
+.fa-envelope:nth-child(4):hover {
   color: crimson;
   transition: all 0.4s ease;
 }
-.fa-user:nth-child(6):hover{
+.fa-user:nth-child(6):hover {
   color: crimson;
   transition: all 0.4s ease;
 }
-.logo-for-header{
+.logo-for-header {
   float: left;
   margin-left: -260px;
   margin-top: 10px;
 }
-h1{
+h1 {
   margin-top: -5px;
   margin-left: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.search-box input{
+.search-box input {
   float: right;
   margin: 11px;
   outline: none;
   border-radius: 10px;
-  border:none; 
+  border: none;
   width: 250px;
   height: 30px;
   text-align: center;
   appearance: none;
   margin-right: 50px;
 }
-input::placeholder{
+input::placeholder {
   padding: 28px;
   text-transform: capitalize;
   font-family: sans-serif;
   font-weight: 500;
 }
-.fa-search:hover{
+.fa-search:hover {
   color: crimson;
 }
-.fa-search{
+.fa-search {
   float: right;
   margin: 18px;
   margin-right: -32px;
   color: #555;
   cursor: pointer;
 }
-.profile{
+.profile {
   float: right;
   margin-right: -300px;
   margin-top: 8px;
   color: #fff;
 }
 /*navbar*/
-.sidebar{
+.sidebar {
   width: 300px;
   height: 690px;
   background: #e0e0e0;
-  position: sticky;
   margin-top: -13px;
   border-radius: 5px;
   margin-left: 1px;
-  
 }
-.all-icon-sidebar{
+.all-icon-sidebar {
   margin: 15px;
   color: #555;
   font-family: Arial, Helvetica, sans-serif;
@@ -112,19 +110,22 @@ input::placeholder{
   cursor: pointer;
   margin-left: 20px;
 }
-span{
+span {
   text-transform: capitalize;
 }
-.fa-user-friends,.fa-user-plus,.fa-shopping-cart,.fa-video{
+.fa-user-friends,
+.fa-user-plus,
+.fa-shopping-cart,
+.fa-video {
   margin-right: 10px;
   color: blue;
 }
-span:hover{
+span:hover {
   color: red;
   transition: all 0.2s ease;
 }
 
-h4{
+h4 {
   text-align: left;
   color: cornflowerblue;
   font-weight: 500;
@@ -134,22 +135,22 @@ h4{
   margin-left: 20px;
   margin-top: 40px;
 }
-.information{
+.information {
   margin: 13px;
   color: #555;
 }
-.follow{
+.follow {
   display: grid;
   color: #555;
   margin: 10px;
 }
-img{
+img {
   margin: 5px;
-  object-fit: cover; 
+  object-fit: cover;
   margin-left: 10px;
   cursor: pointer;
 }
-aside{
+aside {
   margin: 40px;
   margin-left: 75px;
   margin-top: -35px;
@@ -157,7 +158,7 @@ aside{
   font-family: sans-serif;
 }
 /*sidebar*/
-.sidebar-right{
+.sidebar-right {
   width: 270px;
   height: 720px;
   background: #e0e0e0;
@@ -167,16 +168,17 @@ aside{
   margin-right: 35px;
   appearance: none;
 }
-.title-right{
+.title-right {
   margin: 10px;
   color: #555;
   text-transform: capitalize;
   font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   display: flex;
 }
-.title-right-2{
+.title-right-2 {
   float: right;
   margin-top: -29px;
   color: cornflowerblue;
@@ -184,10 +186,11 @@ aside{
   cursor: pointer;
   font-size: 14px;
 }
-.bg-color,.bg-color-2{
+.bg-color,
+.bg-color-2 {
   width: 55px;
   height: 60px;
-  background:cornflowerblue;
+  background: cornflowerblue;
   margin: 10px;
   border-radius: 10px;
   border: 1px solid #555;
@@ -197,7 +200,7 @@ aside{
   flex-direction: column;
   color: #f6f6f6;
 }
-.text-sidebar-right{
+.text-sidebar-right {
   display: grid;
   margin: 20px;
   color: #555;
@@ -209,7 +212,7 @@ aside{
   align-items: center;
   margin-top: -130px;
 }
-.text-2-sidebar-right{
+.text-2-sidebar-right {
   display: grid;
   margin: 20px;
   color: #555;
@@ -220,44 +223,45 @@ aside{
   align-items: center;
   margin-top: 20px;
 }
-.fa-map-marker-alt{
-  margin-right: 115px; 
+.fa-map-marker-alt {
+  margin-right: 115px;
 }
-.location-or-place{
+.location-or-place {
   text-align: center;
   margin-top: -90px;
   margin-right: 10px;
   color: #555;
   font-size: 15px;
 }
-.location-2{
+.location-2 {
   text-align: center;
   margin-top: 38px;
   color: #555;
   font-size: 15px;
 }
-.advertisment{
+.advertisment {
   color: #555;
   font-weight: 600;
   margin-top: 45px;
   margin-left: 13px;
   text-transform: capitalize;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 2px;
 }
-.picture-advertisment{
+.picture-advertisment {
   object-fit: cover;
 }
-img{
+img {
   border-radius: 20px;
 }
-h3{
+h3 {
   margin: 14px;
   color: #555;
   text-transform: capitalize;
   letter-spacing: 1px;
 }
-section{
+section {
   float: right;
   margin: 10px;
   color: cornflowerblue;
@@ -268,66 +272,68 @@ section{
   font-family: sans-serif;
 }
 /*sidebar-right*/
-.main{
-   position: absolute;
-   top: 50%;
-   left: 50%; 
-   transform: translate(50%,-50%);
-   margin-left: -480px;
-   margin-top: -150px;
-}
-.text-of-your-story{
+.main {
   position: absolute;
   top: 50%;
-  left: 50%; 
-  transform: translate(50%,-50%);
+  left: 50%;
+  transform: translate(50%, -50%);
+  margin-left: -480px;
+  margin-top: -150px;
+}
+.text-of-your-story {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
   color: #fff;
   margin-left: -260px;
   margin-top: -90px;
   text-transform: capitalize;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  letter-spacing: 1px; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 1px;
 }
 /*navbar-right*/
-#icon-plus{
+#icon-plus {
   cursor: pointer;
   color: cornflowerblue;
   font-size: 35px;
   margin-top: -120px;
   position: absolute;
   top: 50%;
-  left: 50%; 
-  transform: translate(50%,-50%);
+  left: 50%;
+  transform: translate(50%, -50%);
   margin-left: -218px;
 }
-.your-profile{
+.your-profile {
   width: 540px;
   height: 200px;
   background: #e0e0e0;
   position: absolute;
   top: 50%;
-  left: 50%; 
-  transform: translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin-top: 45px;
   border-radius: 10px;
 }
-.text-on-profile{
+.text-on-profile {
   position: absolute;
   top: 50%;
-  left: 50%; 
-  transform: translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: inline-block;
   margin-top: -70px;
   margin-left: -146px;
   color: #555;
   text-transform: capitalize;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.text-on-profile-2{
+.text-on-profile-2 {
   position: absolute;
   top: 50%;
-  left: 50%; 
-  transform: translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin-left: -175px;
   margin-top: -43px;
   font-size: 12px;
@@ -335,38 +341,38 @@ section{
   text-transform: capitalize;
   color: #555;
 }
-.picture-2{
+.picture-2 {
   background-size: cover;
   margin-left: -465px;
   margin-top: 15px;
 }
-.mind{
-  text-align:  left;
+.mind {
+  text-align: left;
   margin: 12px;
   margin-left: 70px;
   color: #555;
   font-size: 16px;
   text-transform: capitalize;
-  font-family: sans-serif; 
+  font-family: sans-serif;
   font-weight: 500;
 }
 .search-2 {
   text-align: center;
 }
-input{
+input {
   outline: none;
   border: none;
   width: 500px;
   text-align: center;
   align-items: center;
-  background: #f6f6f6; 
+  background: #f6f6f6;
   margin-top: 15px;
 }
-input[type="text"]:only-of-type{
+input[type="text"]:only-of-type {
   background: none;
   border-bottom: 1px solid #555555;
 }
-.icon-profile{
+.icon-profile {
   text-align: center;
   align-items: center;
   margin: 10px;
@@ -376,80 +382,99 @@ input[type="text"]:only-of-type{
   margin-top: -5px;
   margin-left: -200px;
 }
-.fa-video-slash{
+.fa-video-slash {
   color: crimson;
   margin: 20px;
   margin-left: -100px;
 }
-.fa-camera{
+.fa-camera {
   color: green;
   margin: 20px;
 }
-.fa-smile-beam{
+.fa-smile-beam {
   color: orangered;
   margin: 20px;
 }
-span{
+span {
   font-size: 15px;
   color: #555;
   text-transform: capitalize;
 }
-.icon-profile-2{
+.icon-profile-2 {
   cursor: pointer;
   text-align: center;
   margin-top: -76px;
   font-size: 25px;
 }
-.icon-profile-3{
+.icon-profile-3 {
   text-align: right;
   margin-top: -63px;
   margin-right: 37px;
   cursor: pointer;
   font-size: 25px;
 }
-.card-1{
-    width: 520px;
-    height: 310px;
-    background-color: #e0e0e0;
-    margin-left: 10px;
-    margin-top: 10px;
+.card-1 {
+  width: 520px;
+  height: 310px;
+  background-color: #e0e0e0;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-.main-picture-profile{
-    object-fit: cover;
+.main-picture-profile {
+  object-fit: cover;
 }
-.text-for-picture-main,.text-for-picture-main-2{
-    text-align: center;
-    margin-top: -46px;
-    margin-left: -290px;
+.text-for-picture-main,
+.text-for-picture-main-2,
+.text-for-picture-main-3 {
+  text-align: center;
+  margin-top: -46px;
+  margin-left: -290px;
 }
-h6{
-    margin-top: 2px;
-    color: #555;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-left: -5px;
+h6 {
+  margin-top: 2px;
+  color: #555;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: -5px;
 }
-.paragrath,.paragrath-2{
-    text-transform: capitalize;
-    text-align: center;
-    align-items: center;
-    color: #555;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: -5px;
-    overflow-wrap: normal; 
+.paragrath,
+.paragrath-2,
+.paragrath-3 {
+  text-transform: capitalize;
+  text-align: center;
+  align-items: center;
+  color: #555;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: -5px;
+  overflow-wrap: normal;
 }
-.picture{
-    object-fit: contain;
+.picture {
+  object-fit: contain;
 }
-.card-2{
-    width: 520px;
-    height: 310px;
-    background-color: #e0e0e0;
-    margin-left: 5px;
-    margin-top: 30px;
+.card-2 {
+  width: 520px;
+  height: 320px;
+  background-color: #e0e0e0;
+  margin-left: 5px;
+  margin-top: 30px;
 }
-.picture-3{
-    text-align: center;
-    align-items: center;
+.picture-3 {
+  text-align: center;
+  align-items: center;
+}
+.card-3 {
+  width: 520px;
+  height: 310px;
+  background-color: #e0e0e0;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+.picture-4 {
+  margin-top: -200px;
+  text-align: center;
+  align-items: center;
+  object-fit: cover;
 }
