@@ -400,6 +400,9 @@ span {
   color: #555;
   text-transform: capitalize;
 }
+.more{
+    cursor: pointer;
+}
 .icon-profile-2 {
   cursor: pointer;
   text-align: center;
